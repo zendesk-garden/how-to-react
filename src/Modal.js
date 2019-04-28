@@ -9,23 +9,4 @@ import {
 import { Button } from '@zendeskgarden/react-buttons';
 import Form from './Form';
 
-export default props => (
-  <Modal {...props}>
-    <Header>Sign in</Header>
-    <Body>
-      <Form />
-    </Body>
-    <Footer>
-      <FooterItem>
-        <Button basic onClick={props.onClose}>
-          Cancel
-        </Button>
-      </FooterItem>
-      <FooterItem>
-        <Button primary onClick={props.onClose}>
-          Sign in
-        </Button>
-      </FooterItem>
-    </Footer>
-  </Modal>
-);
+export default props => <Modal>???</Modal>;
