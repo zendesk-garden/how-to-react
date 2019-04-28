@@ -9,6 +9,7 @@ export default () => {
   return (
     <Main className="u-p">
       <Button>Sign in</Button>
+      <Modal />
     </Main>
   );
 };
