@@ -10,7 +10,7 @@ import { Button } from '@zendeskgarden/react-buttons';
 import Form from './Form';
 
 export default props => (
-  <Modal>
+  <Modal {...props}>
     <Header>Sign In</Header>
     <Body>...</Body>
     <Footer>...</Footer>
