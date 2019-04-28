@@ -9,4 +9,10 @@ import {
 import { Button } from '@zendeskgarden/react-buttons';
 import Form from './Form';
 
-export default props => <Modal>???</Modal>;
+export default props => (
+  <Modal>
+    <Header>Sign In</Header>
+    <Body>...</Body>
+    <Footer>...</Footer>
+  </Modal>
+);
