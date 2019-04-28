@@ -13,6 +13,13 @@ export default props => (
   <Modal>
     <Header>Sign In</Header>
     <Body>...</Body>
-    <Footer>...</Footer>
+    <Footer>
+      <FooterItem>
+        <Button basic>Cancel</Button>
+      </FooterItem>
+      <FooterItem>
+        <Button primary>Sign in</Button>
+      </FooterItem>
+    </Footer>
   </Modal>
 );
