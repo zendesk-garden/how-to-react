@@ -8,7 +8,7 @@ export default () => {
 
   return (
     <Main className="u-p">
-      <Button>Sign in</Button>
+      <Button onClick={() => setModalVisible(true)}>Sign in</Button>
       {isModalVisible && <Modal />}
     </Main>
   );
