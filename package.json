@@ -1,0 +1,39 @@
+{
+  "name": "how-to-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@zendeskgarden/css-bedrock": "7.0.22",
+    "@zendeskgarden/css-utilities": "4.3.1",
+    "@zendeskgarden/react-buttons": "3.9.4",
+    "@zendeskgarden/react-checkboxes": "3.5.4",
+    "@zendeskgarden/react-chrome": "4.6.6",
+    "@zendeskgarden/react-menus": "4.3.11",
+    "@zendeskgarden/react-modals": "5.5.3",
+    "@zendeskgarden/react-textfields": "3.8.5",
+    "@zendeskgarden/react-theming": "3.2.1",
+    "@zendeskgarden/svg-icons": "6.1.1",
+    "hoist-non-react-statics": "3.3.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "2.1.8",
+    "styled-components": "3.4.10"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
