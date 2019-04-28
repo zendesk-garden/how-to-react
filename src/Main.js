@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Main } from '@zendeskgarden/react-chrome';
+import { Button } from '@zendeskgarden/react-buttons';
 import Modal from './Modal';
 
 export default () => {
