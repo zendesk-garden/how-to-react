@@ -9,7 +9,7 @@ export default () => {
   return (
     <Main className="u-p">
       <Button onClick={() => setModalVisible(true)}>Sign in</Button>
-      {isModalVisible && <Modal />}
+      {isModalVisible && <Modal onClose={() => setModalVisible(false)} />}
     </Main>
   );
 };
