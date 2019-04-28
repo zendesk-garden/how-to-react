@@ -9,7 +9,7 @@ export default () => {
   return (
     <Main className="u-p">
       <Button>Sign in</Button>
-      <Modal />
+      {isModalVisible && <Modal />}
     </Main>
   );
 };
