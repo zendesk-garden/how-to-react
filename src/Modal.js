@@ -15,10 +15,14 @@ export default props => (
     <Body>...</Body>
     <Footer>
       <FooterItem>
-        <Button basic>Cancel</Button>
+        <Button basic onClick={props.onClose}>
+          Cancel
+        </Button>
       </FooterItem>
       <FooterItem>
-        <Button primary>Sign in</Button>
+        <Button primary onClick={props.onClose}>
+          Sign in
+        </Button>
       </FooterItem>
     </Footer>
   </Modal>
