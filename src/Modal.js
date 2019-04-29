@@ -11,20 +11,14 @@ import Form from './Form';
 
 export default props => (
   <Modal {...props}>
-    <Header>Sign in</Header>
-    <Body>
-      <Form />
-    </Body>
+    <Header>Sign In</Header>
+    <Body>...</Body>
     <Footer>
       <FooterItem>
-        <Button basic onClick={props.onClose}>
-          Cancel
-        </Button>
+        <Button basic>Cancel</Button>
       </FooterItem>
       <FooterItem>
-        <Button primary onClick={props.onClose}>
-          Sign in
-        </Button>
+        <Button primary>Sign in</Button>
       </FooterItem>
     </Footer>
   </Modal>
