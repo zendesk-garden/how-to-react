@@ -10,7 +10,7 @@ import {
 } from '@zendeskgarden/react-checkboxes';
 
 export default () => (
-  <form>
+  <>
     <TextField className="u-mb-sm">
       <InputLabel>Email</InputLabel>
       <Input type="email" />
@@ -22,5 +22,5 @@ export default () => (
     <Checkbox>
       <CheckboxLabel>Remember me</CheckboxLabel>
     </Checkbox>
-  </form>
+  </>
 );
