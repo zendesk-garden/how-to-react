@@ -7,23 +7,25 @@ import {
   FooterItem
 } from '@zendeskgarden/react-modals';
 import { Button } from '@zendeskgarden/react-buttons';
-import Form from './Form';
+import Fields from './Fields';
 
 export default props => (
   <Modal {...props}>
-    <Header>Sign In</Header>
-    <Body>...</Body>
-    <Footer>
-      <FooterItem>
-        <Button basic onClick={props.onClose}>
-          Cancel
-        </Button>
-      </FooterItem>
-      <FooterItem>
-        <Button primary onClick={props.onClose}>
-          Sign in
-        </Button>
-      </FooterItem>
-    </Footer>
+    <form autoComplete="off" onSubmit={props.onClose}>
+      <Header>Sign In</Header>
+      <Body>...</Body>
+      <Footer>
+        <FooterItem>
+          <Button basic onClick={props.onClose}>
+            Cancel
+          </Button>
+        </FooterItem>
+        <FooterItem>
+          <Button primary type="submit">
+            Sign in
+          </Button>
+        </FooterItem>
+      </Footer>
+    </form>
   </Modal>
 );
