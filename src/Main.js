@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Main } from '@zendeskgarden/react-chrome';
+
 import Modal from './Modal';
 
 export default () => {
