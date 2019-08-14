@@ -3,16 +3,18 @@ import { Checkbox, Field, Label, Input } from '@zendeskgarden/react-forms';
 
 export default () => (
   <>
-    <Field className="u-mb-sm">
+    <Field>
       <Label>Email</Label>
-      <Input type="email" />
+      <Input className="u-mb-sm" type="email" />
     </Field>
-    <Field className="u-mb">
+    <Field>
       <Label>Password</Label>
-      <Input type="password" />
+      <Input className="u-mb" type="password" />
     </Field>
-    <Checkbox>
-      <Label>Remember me</Label>
-    </Checkbox>
+    <Field>
+      <Checkbox>
+        <Label>Remember me</Label>
+      </Checkbox>
+    </Field>
   </>
 );
