@@ -1,26 +1,18 @@
 import React from 'react';
-import {
-  TextField,
-  Label as InputLabel,
-  Input
-} from '@zendeskgarden/react-textfields';
-import {
-  Checkbox,
-  Label as CheckboxLabel
-} from '@zendeskgarden/react-checkboxes';
+import { Checkbox, Field, Label, Input } from '@zendeskgarden/react-forms';
 
 export default () => (
   <>
-    <TextField className="u-mb-sm">
-      <InputLabel>Email</InputLabel>
+    <Field className="u-mb-sm">
+      <Label>Email</Label>
       <Input type="email" />
-    </TextField>
-    <TextField className="u-mb">
-      <InputLabel>Password</InputLabel>
+    </Field>
+    <Field className="u-mb">
+      <Label>Password</Label>
       <Input type="password" />
-    </TextField>
+    </Field>
     <Checkbox>
-      <CheckboxLabel>Remember me</CheckboxLabel>
+      <Label>Remember me</Label>
     </Checkbox>
   </>
 );
