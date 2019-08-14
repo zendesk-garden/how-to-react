@@ -13,7 +13,9 @@ export default props => (
   <Modal {...props}>
     <form autoComplete="off" onSubmit={props.onClose}>
       <Header>Sign In</Header>
-      <Body>...</Body>
+      <Body>
+        <Fields />
+      </Body>
       <Footer>
         <FooterItem>
           <Button basic onClick={props.onClose}>
