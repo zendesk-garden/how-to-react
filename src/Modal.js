@@ -12,10 +12,8 @@ import Fields from './Fields';
 export default props => (
   <Modal {...props}>
     <form autoComplete="off" onSubmit={props.onClose}>
-      <Header>Sign in</Header>
-      <Body>
-        <Fields />
-      </Body>
+      <Header>Sign In</Header>
+      <Body>...</Body>
       <Footer>
         <FooterItem>
           <Button basic onClick={props.onClose}>
