@@ -5,14 +5,14 @@ import {
   NavItemIcon,
   NavItemText
 } from '@zendeskgarden/react-chrome';
-import { ReactComponent as ProductIcon } from '@zendeskgarden/svg-icons/src/26/relationshape-message.svg';
+import { ReactComponent as ProductIcon } from '@zendeskgarden/svg-icons/src/26/garden.svg';
 import { ReactComponent as HomeIcon } from '@zendeskgarden/svg-icons/src/26/home-fill.svg';
 import { ReactComponent as SettingsIcon } from '@zendeskgarden/svg-icons/src/26/settings-fill.svg';
 import { ReactComponent as ZendeskIcon } from '@zendeskgarden/svg-icons/src/26/zendesk.svg';
 
 export default () => (
   <Nav>
-    <NavItem logo title="Zendesk Product">
+    <NavItem className="u-fg-green-400" logo title="Zendesk Product">
       <NavItemIcon>
         <ProductIcon />
       </NavItemIcon>
