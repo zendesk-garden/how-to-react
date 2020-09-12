@@ -22,7 +22,7 @@ export default () => (
           <HeaderItemIcon>
             <MenuIcon />
           </HeaderItemIcon>
-          <HeaderItemText clipped>Products</HeaderItemText>
+          <HeaderItemText isClipped>Products</HeaderItemText>
         </HeaderItem>
       </Trigger>
       <Menu>
