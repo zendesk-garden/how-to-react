@@ -12,7 +12,7 @@ import Fields from './Fields';
 export default (props) => (
   <Modal {...props}>
     <form autoComplete="off">
-      <Header>Sign In</Header>
+      <Header>Sign in</Header>
       <Body>...</Body>
       <Footer>
         <FooterItem>
