@@ -16,10 +16,10 @@ export default (props) => (
       <Body>...</Body>
       <Footer>
         <FooterItem>
-          <Button basic>Cancel</Button>
+          <Button isBasic>Cancel</Button>
         </FooterItem>
         <FooterItem>
-          <Button primary type="submit">
+          <Button isPrimary type="submit">
             Sign in
           </Button>
         </FooterItem>
