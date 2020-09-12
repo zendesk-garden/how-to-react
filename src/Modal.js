@@ -9,7 +9,7 @@ import {
 import { Button } from '@zendeskgarden/react-buttons';
 import Fields from './Fields';
 
-export default props => (
+export default (props) => (
   <Modal {...props}>
     <form autoComplete="off">???</form>
   </Modal>
