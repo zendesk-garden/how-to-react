@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Chrome from './Chrome';
-import { ThemeProvider } from '@zendeskgarden/react-theming';
+import { ThemeProvider, DEFAULT_THEME } from '@zendeskgarden/react-theming';
 
-import './styles';
+import '@zendeskgarden/css-bedrock';
 
 function App() {
   return (
