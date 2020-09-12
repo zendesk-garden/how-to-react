@@ -5,7 +5,7 @@ import Header from './Header';
 import Main from './Main';
 
 export default () => (
-  <Chrome>
+  <Chrome style={{ width: '100vw' }}>
     <Nav />
     <Body>
       <Header />

@@ -5,6 +5,7 @@ import {
   NavItemIcon,
   NavItemText
 } from '@zendeskgarden/react-chrome';
+import { PALETTE } from '@zendeskgarden/react-theming';
 import { ReactComponent as ProductIcon } from '@zendeskgarden/svg-icons/src/26/garden.svg';
 import { ReactComponent as HomeIcon } from '@zendeskgarden/svg-icons/src/26/home-fill.svg';
 import { ReactComponent as SettingsIcon } from '@zendeskgarden/svg-icons/src/26/settings-fill.svg';
@@ -12,13 +13,17 @@ import { ReactComponent as ZendeskIcon } from '@zendeskgarden/svg-icons/src/26/z
 
 export default () => (
   <Nav>
-    <NavItem className="u-fg-green-400" logo title="Zendesk Product">
+    <NavItem
+      hasLogo
+      style={{ color: PALETTE.green[400] }}
+      title="Zendesk Product"
+    >
       <NavItemIcon>
         <ProductIcon />
       </NavItemIcon>
       <NavItemText>Zendesk Product</NavItemText>
     </NavItem>
-    <NavItem current title="Home">
+    <NavItem isCurrent title="Home">
       <NavItemIcon>
         <HomeIcon />
       </NavItemIcon>
@@ -30,7 +35,7 @@ export default () => (
       </NavItemIcon>
       <NavItemText>Settings</NavItemText>
     </NavItem>
-    <NavItem brandmark title="Zendesk">
+    <NavItem hasBrandmark title="Zendesk">
       <NavItemIcon>
         <ZendeskIcon />
       </NavItemIcon>
