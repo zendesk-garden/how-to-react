@@ -18,12 +18,12 @@ export default (props) => (
       </Body>
       <Footer>
         <FooterItem>
-          <Button basic onClick={props.onClose}>
+          <Button isBasic onClick={props.onClose}>
             Cancel
           </Button>
         </FooterItem>
         <FooterItem>
-          <Button primary type="submit">
+          <Button isPrimary type="submit">
             Sign in
           </Button>
         </FooterItem>
